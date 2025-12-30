@@ -3,6 +3,7 @@ import Image from "next/image"
 import { useEffect, useState } from "react";
 
 const EducationSkills = () => {
+    
     const [educationData, setEductionData] = useState<any>(null);
 
     useEffect(() => {
