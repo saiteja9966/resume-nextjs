@@ -127,7 +127,7 @@ const Contact = () => {
                                 </div>
                                 {submitted &&
                                     <div className="flex items-center gap-2">
-                                        <Image src={"./images/icon/success-icon.svg"} alt="success-icon" width={30} height={30} />
+                                        <Image src={"/images/icon/success-icon.svg"} alt="success-icon" width={30} height={30} />
                                         <p className="text-secondary">Great!!! Email has been Successfully Sent.  Thank You .</p>
                                     </div>
                                 }
