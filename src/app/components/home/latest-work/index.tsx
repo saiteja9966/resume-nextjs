@@ -7,7 +7,7 @@ const LatestWork = () => {
 
   const workData = [
     {
-      image: "/images/work/VVV.png",
+      image: "./images/work/VVV.png",
       title: "Varun Management System (VMS)",
       client: "Varun Group",
       slug: "varun-management-system",
@@ -16,7 +16,7 @@ const LatestWork = () => {
       link: "https://vmsdev.varungroup.com"
     },
     {
-      image: "/images/work/SSS.png",
+      image: "./images/work/SSS.png",
       title: "Sportszera Mobile App",
       client: "Mylas Information Technologies",
       slug: "sportszera-mobile-app",
@@ -24,7 +24,7 @@ const LatestWork = () => {
         "A cross-platform sports e-commerce and service mobile app built with React Native for apparel sales, stadium discovery, and tournament registration."
     },
     {
-      image: "/images/work/MMM.png",
+      image: "./images/work/MMM.png",
       title: "MediaPiQ",
       client: "UnoSimple Technologies",
       slug: "mediapiq",
@@ -33,7 +33,7 @@ const LatestWork = () => {
       link: "http://dev.mediapiq.us/"
     },
     {
-      image: "/images/work/BBB.png",
+      image: "./images/work/BBB.png",
       title: "Bulk Material Pro",
       client: "UnoSimple Technologies",
       slug: "bulk-material-pro",
@@ -42,7 +42,7 @@ const LatestWork = () => {
       link: "https://app.bulkmaterialpro.com/login"
     },
     {
-      image: "/images/work/TTT.png",
+      image: "./images/work/TTT.png",
       title: "Teletext Holidays",
       client: "Teletext India (UK)",
       slug: "teletext-holidays",
@@ -51,7 +51,7 @@ const LatestWork = () => {
       link: "https://www.teletextholidays.co.uk/"
     },
     {
-      image: "/images/work/AAA.png",
+      image: "./images/work/AAA.png",
       title: "AlphaRooms",
       client: "Teletext India (UK)",
       slug: "alpharooms",

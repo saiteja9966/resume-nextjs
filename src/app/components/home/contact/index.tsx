@@ -92,7 +92,7 @@ const Contact = () => {
 
               {submitted && (
                 <div className="flex items-center gap-2">
-                  <Image src="/images/icon/success-icon.svg" alt="success" width={30} height={30} />
+                  <Image src="./images/icon/success-icon.svg" alt="success" width={30} height={30} />
                   <p className="text-secondary">Email sent successfully!</p>
                 </div>
               )}

@@ -7,7 +7,7 @@ const AboutMe = () => {
             <div className="relative bg-muted py-10 md:py-32">
                 <div className="absolute top-0 w-full px-9">
                     <Image
-                        src="/images/home/about-me/resume-bg-img.svg"
+                        src="./images/home/about-me/resume-bg-img.svg"
                         alt="resume-bg-img"
                         width={1200}
                         height={348}
@@ -25,7 +25,7 @@ const AboutMe = () => {
                         <div className="pt-10 xl:pt-16 flex gap-10 items-center justify-between">
                             <div className="w-[303px] h-[440px] hidden lg:flex">
                                 <Image
-                                    src="/images/home/about-me/about-banner-img.svg"
+                                    src="./images/home/about-me/about-banner-img.svg"
                                     alt="about-banner"
                                     width={303}
                                     height={440}
@@ -60,7 +60,7 @@ const AboutMe = () => {
                                 <div className="pt-8 xl:pt-14 flex flex-col sm:flex-row items-center gap-4">
                                     <div className="flex items-center gap-3.5">
                                         <Image
-                                            src="/images/icon/lang-icon.svg"
+                                            src="./images/icon/lang-icon.svg"
                                             alt="lang-icon"
                                             width={30}
                                             height={30}

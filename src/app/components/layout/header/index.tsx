@@ -5,7 +5,7 @@ import Logo from "../logo";
 
 const Header = () => {
 const handleDownloadPDF = () => {
-    const pdfUrl = "/images/work/SaitejaResume.pdf";;
+    const pdfUrl = "./images/work/SaitejaResume.pdf";;
 
     window.location.href = pdfUrl;
 
