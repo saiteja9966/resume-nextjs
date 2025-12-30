@@ -1,5 +1,4 @@
 import Image from "next/image"
-import ME from "../../../../../images/ME.jpeg"
 const index = () => {
     return (
         <section className="relative hero-section overflow-hidden pt-35 md:pt-40 pb-12 lg:pb-30 xl:pt-52">
@@ -24,7 +23,7 @@ const index = () => {
                 </div>
             </div>
             <div className="absolute right-0 top-0 hidden h-auto w-1/2 lg:block 2xl:h-171.5 2xl:w-187.5">
-                <Image src={ME} alt="banner-img" width={685} height={650} className=" absolute right-0 top-0 z-1" />
+                <Image src={"/images/home/banner/ME.jpeg"} alt="banner-img" width={685} height={650} className=" absolute right-0 top-0 z-1" />
             </div>
         </section>
     )
