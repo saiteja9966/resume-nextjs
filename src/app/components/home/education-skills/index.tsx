@@ -3,23 +3,114 @@ import Image from "next/image"
 import { useEffect, useState } from "react";
 
 const EducationSkills = () => {
-    
-    const [educationData, setEductionData] = useState<any>(null);
+    const educationData = {
+  education: [
+  {
+    title: "B.Tech in Electronics and Communication Engineering",
+    institute: "Gitam University, Visakhapatnam, India",
+    duration: "03/2015 – 03/2019",
+    description:
+      "Completed Bachelor of Technology in Electronics and Communication Engineering with a strong foundation in core engineering concepts and problem-solving skills."
+  },
+  {
+    title: "Intermediate (Board of Intermediate Education)",
+    institute: "Sri Chaitanya Junior College",
+    duration: "05/2013 – 03/2015",
+    description:
+      "Completed intermediate education with a focus on Mathematics, Physics, and Chemistry, building a strong analytical and technical foundation."
+  },
+  {
+    title: "Secondary School Certificate (SSC)",
+    institute: "Bhashyam High School",
+    duration: "06/2012 – 03/2013",
+    description:
+      "Completed secondary school education with emphasis on academic excellence and foundational learning."
+  }
+],
 
-    useEffect(() => {
-        const fetchData = async () => {
-            try {
-                const res = await fetch('/api/page-data');
-                if (!res.ok) throw new Error('Failed to fetch');
-                const data = await res.json();
-                setEductionData(data?.educationData);
-            } catch (error) {
-                console.error('Error fetching services:', error);
-            }
-        };
+  skills: [
+    {
+  name: "React.js",
+  icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
+  rating: 5
+},
 
-        fetchData();
-    }, []);
+{
+  name: "JavaScript (ES6+)",
+  icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
+  rating: 5
+},
+{
+  name: "Redux ",
+  icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg",
+  rating: 4
+},
+{
+  name: "Vue.js ",
+  icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg",
+  rating: 4
+},
+
+{
+  name: "CSS3",
+  icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
+  rating: 5
+},
+{
+  name: "Bootstrap",
+  icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg",
+  rating: 4
+},
+{
+  name: "Ant Design",
+  icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/antdesign/antdesign-original.svg",
+  rating: 4
+},
+{
+  name: "Node.js",
+  icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg",
+  rating: 4
+},
+{
+  name: "PostgreSQL",
+  icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg",
+  rating: 4
+},
+
+{
+  name: "Git",
+  icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg",
+  rating: 5
+},
+{
+  name: "Bitbucket",
+  icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bitbucket/bitbucket-original.svg",
+  rating: 4
+},
+{
+  name: "Jira",
+  icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jira/jira-original.svg",
+  rating: 4
+},
+
+  ]
+}
+    // const [educationData, setEductionData] = useState<any>(null);
+
+    // useEffect(() => {
+    //     const fetchData = async () => {
+    //         try {
+    //             const res = await fetch('/api/page-data');
+    //             if (!res.ok) throw new Error('Failed to fetch');
+    //             const data = await res.json();
+    //             setEductionData(data?.educationData);
+    //         } catch (error) {
+    //             console.error('Error fetching services:', error);
+    //         }
+    //     };
+
+    //     fetchData();
+    // }, []);
 
     return (
         <section>
