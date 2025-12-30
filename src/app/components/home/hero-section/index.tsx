@@ -10,7 +10,7 @@ const index = () => {
                             <div className="flex items-center gap-8">
                                 <h1>I'm Sai Teja</h1>
                                 <div className="wave">
-                                    <Image src={"/images/home/banner/wave-icon.svg"} alt="wave-icon" width={62} height={62} className="" />
+                                    <Image src={"./images/home/banner/wave-icon.svg"} alt="wave-icon" width={62} height={62} className="" />
                                 </div>
                             </div>
                             <h1>Full Stack Developer</h1>
@@ -20,7 +20,7 @@ const index = () => {
                             enhancing my professional growth and utilizing my skills
                             efficiently. </p>
                     </div>
-                    <Image src={"/images/home/banner/banner-img.png"} alt="banner-img" width={685} height={650} className="block lg:hidden" />
+                    <Image src={"./images/home/banner/banner-img.png"} alt="banner-img" width={685} height={650} className="block lg:hidden" />
                 </div>
             </div>
             <div className="absolute right-0 top-0 hidden h-auto w-1/2 lg:block 2xl:h-171.5 2xl:w-187.5">

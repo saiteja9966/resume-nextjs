@@ -6,19 +6,19 @@ const contactBar = {
     {
       type: "email",
       label: "saitejabudda@gmail.com",
-      icon: "/images/icon/mail-icon.svg",
+      icon: "./images/icon/mail-icon.svg",
       link: "mailto:saitejabudda@gmail.com"
     },
     {
       type: "phone",
       label: "+91 7036254458",
-      icon: "/images/icon/call-icon.svg",
+      icon: "./images/icon/call-icon.svg",
       link: "tel:+90155882500"
     },
     // {
     //   type: "website",
     //   label: "www.mywebsite.com",
-    //   icon: "/images/icon/web-icon.svg",
+    //   icon: "./images/icon/web-icon.svg",
     //   link: "https://www.mywebsite.com"
     // }
   ],
@@ -30,12 +30,12 @@ const contactBar = {
     // },
     {
       platform: "linkedin",
-      icon: "/images/icon/linkedin-icon.svg",
+      icon: "./images/icon/linkedin-icon.svg",
       link: "https://www.linkedin.com/in/saiteja-buddha-458643147/"
     },
     {
       platform: "facebook",
-      icon: "/images/icon/facebook-icon.svg",
+      icon: "./images/icon/facebook-icon.svg",
       link: "https://facebook.com"
     }
   ]

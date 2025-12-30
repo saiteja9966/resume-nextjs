@@ -25,7 +25,7 @@ const EducationSkills = () => {
         <section>
             <div className="border-t border-muted overflow-hidden">
                 <div className="container relative z-10">
-                    <Image src={"/images/home/education-skill/edu-skill-vector.svg"} alt="vector" width={260} height={170} className="no-print absolute top-0 left-0 transform -translate-y-1/2" />
+                    <Image src={"./images/home/education-skill/edu-skill-vector.svg"} alt="vector" width={260} height={170} className="no-print absolute top-0 left-0 transform -translate-y-1/2" />
                     <div className="relative z-10 py-16 md:py-32">
                         <div className="flex items-center justify-between gap-2 border-b border-black pb-7 mb-9 xl:mb-16">
                             <h2>Education & Skills</h2>
