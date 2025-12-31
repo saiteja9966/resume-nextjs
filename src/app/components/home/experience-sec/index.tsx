@@ -47,7 +47,7 @@ const ExperienceSec = () => {
           {/* Section Header */}
           <div className="flex items-center justify-between gap-2 border-b border-black pb-7 mb-9 md:mb-16">
             <h2 className="text-3xl font-bold">Experience</h2>
-            <p className="text-xl text-primary">( 04 )</p>
+            <p className="text-xl text-primary">( 02 )</p>
           </div>
 
           {/* Timeline */}
